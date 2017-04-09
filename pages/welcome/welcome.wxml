@@ -1,0 +1,12 @@
+<view class="container">
+    <image class="user-avatar" style= src="/images/avatar.png"></image>
+    <text class="user-name"><text style="color:red">Hi</text>，童鞋们!</text>
+    <view class="moto-container" bindtap="onTap">
+        <text class="moto" >开启小程序之旅</text>
+    </view>
+        <view class="hd" style="transform:rotateZ({{angle}}deg);">
+          <image class="wave" src="/images/wave.png" mode="aspectFill"></image>
+          <image class="wave wave-bg" src="/images/wave.png" mode="aspectFill"></image>
+      </view>
+
+</view>
